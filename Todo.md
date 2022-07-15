@@ -1,0 +1,185 @@
+---
+title: TODO List
+subitle: 待办事项
+---
+
+- [ ] 半监督聚类
+- [ ] 稀疏学习
+- [ ] 分子相关数据库
+- [ ] 分子性质预测模型与算法
+- [ ] 分子生成算法
+- [ ] 抽象代数
+- [ ] 数理逻辑
+- [ ] 李航 统计学习方法
+- [ ] Learn: Hyper-tune
+  - [ ] [A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1510.03820.pdf)
+- [ ] A Survey of NLP SOTA
+  - [ ] FastText
+  - [ ] TextCNN
+  - [ ] Albert
+  - [ ] DeBERTa
+  - [ ] XLnet
+- [ ] 书: 成为作家
+- [ ] 多肽工作:
+  - [ ] baseline + 1D-Conv
+  - [ ] baseline + RDKit 的分子表征
+  - [x] Bert 预训练 + Bert FineTune = 94.1% acc
+  - [ ] 多任务模型
+  - [ ] 自监督模型: 更改 Dropout
+  - [x] Peptide Only
+- [ ] Projects: Meta Learning
+  - [x] PyTorch Lightning Tutorial 12
+    - [x] Prototypical Networks
+  - [ ] [Meta Learning Flash](https://devblog.pytorchlightning.ai/lightning-flash-now-supports-meta-learning-7c0ac8b1cde7)
+  - [ ] Resurvey on meta learning
+    - [x] ZhiWang's papers
+    - [ ] Post on Google, ZhiHu, CSDN, etc.
+    - [ ] Webofsci's papers
+    - [x] MAML
+      - [x] MAML@survey
+      - [ ] MAML@paper
+      - [ ] MAML@GitHub
+    - [x] ANIL
+  - [x] Meta Learning@practice
+    - [ ] higher
+    - [ ] [learn2learn](https://learn2learn.net/)
+    - [ ] pytorch-meta
+- [ ] [ICML 2022 | G-Mixup：针对图分类任务的数据增强方法](http://mp.weixin.qq.com/s?__biz=MzkxNDIzMTcxNw==&mid=2247501308&idx=1&sn=2806705fd10179b7d6829d1d8a77936e&chksm=c1731d36f6049420fa47a08ae1dd33ade2c2c0ab348ccecdc741ff89fe35c82d089221131455&mpshare=1&scene=1&srcid=0617gkUWitv4rxmlq4pSRV95&sharer_sharetime=1655424193956&sharer_shareid=f66ef27ade3d509229b2afd8611df712#rd)
+- [ ] 电视剧: 恶之花
+- [ ] Projects: Hacker
+  - [ ] Awesome Hacker
+- [ ] Projects: Active Learning
+  - [ ] Challenges: integrate
+  - [ ] [Loop | PyTorch-lightning Optional Extension](https://pytorch-lightning.readthedocs.io/en/stable/extensions/loops.html)
+    - [ ] [Active learning loop](https://devblog.pytorchlightning.ai/train-anything-with-lightning-custom-loops-4be32314c961)
+    - [ ] [n-cross CV](https://github.com/Lightning-AI/lightning/blob/master/examples/pl_loops/kfold.py)
+    - [ ] [Yielding Training Step for GAN](https://github.com/Lightning-AI/lightning/blob/master/examples/pl_loops/yielding_training_step.py)
+  - [x] Deep Active Learning for Text Classification with Diverse Interpretations@paper,give-up
+  - [x] [Learn BAAL](https://baal.readthedocs.io/)
+    - [x] Run a demo and write a doc
+    - [x] [Baal and Lightning Flash](https://lightning-flash.readthedocs.io/en/latest/integrations/baal.html)
+    - [ ] Read papers about BAAL and do some digestion
+  - [x] Human-in-the-loop@book
+    - [x] Survey on Human-in-the-loop
+    - [x] Try Human-in-the-loop GitHub@nice
+  - [x] deep-active-learning
+    - [x] [deep-active-learning@GitHub](https://github.com/ej0cl6/deep-active-learning)
+    - [x] deep-active-learning@paper
+- [ ] Projects: peptide activity prediction
+  - [ ] peptide or drug and AL
+    - [x] search papers on webofsci
+    - [ ] read papers (theme: peptide or drug and AL)
+- [ ] Projects: Contrastive learning
+  - [ ] Learn: SimCSE
+    - [x] Learn: SBERT
+    - [x] what is dropout and dropout mask
+    - [x] rough | learn BERT-flow
+    - [x] Learn: Bert-white
+      - [x] whitening
+    - [x] Learn: ESimCSE
+    - [ ] try the code
+  - [x] Learn: SimCLR
+    - [x] Survey on SimCLR: 
+    - [x] Pytorch Lightning Tutorial 13
+  - [x] Learn: Barlow Twins
+    - [x] Survey on Barlow Twins
+    - [x] Pytorch Lightning Tutorial: Barlow Twins
+  - [x] Learn: Contrastive Active Learning (CAL)@give-up
+    - [x] [contrastive-active-learning@Hard](https://github.com/mourga/contrastive-active-learning)
+    - [x] [ALPS | Cold-start Active Learning through Self-supervised Language Modeling](https://arxiv.org/abs/2010.09535)
+  - [x] Learn: SimCLR | Google | CV@Skip
+  - [ ] Learn: SupContrast
+  - [ ] Learn: PyContrast
+- [ ] Learn: 清空待办事项
+- [ ] Learn: TransformerCPI
+  - [ ] Paper Reading
+  - [ ] code running
+- [ ] Projects: Self-Supervised Learning
+  - [x] Surveys on SSL
+- [ ] Projects: XAI
+  - [x] Bayes Nets: Probabilistic Graphical Models
+  - [ ] 权重分布可视化
+  - [ ] XAI on Graph
+  - [ ] Constrastive on Graph
+  - [ ] [DPM: Deep Probabilistic Models](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/DL2/deep_probabilistic_models_I/tutorial_1.html)
+- [ ] Writing: writing or translation: 2, 0
+- [ ] Projects: Translation
+  - [ ] PPT and translation work
+- [ ] Projects: Data Construction
+  - [ ] TocoDecoy | Hou Tingjun
+- [ ] Learn: 英语口语 B 站视频
+- [ ] Learn: Relearn Probabilistic Statistic and Bayes Statistic
+  - [ ] PyMC3
+- [ ] A Survey of XAI
+  - [ ] [综述公众号](http://mp.weixin.qq.com/s?__biz=MzUxMDg4NDY4OQ==&mid=2247486391&idx=1&sn=58289eeb19c775a1f1af96cc4baf6c3d&chksm=f97d6589ce0aec9f945830c97212777b446da08c13d2335d67d097b53b3173eb5f289d6dbb08&mpshare=1&scene=1&srcid=06203B5JwAuCCmu9xFpKIjKw&sharer_sharetime=1655734669308&sharer_shareid=f66ef27ade3d509229b2afd8611df712#rd)
+- [ ] [TocoDecoy](http://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw==&mid=2247497437&idx=1&sn=93f1385960f0d93f9c3280d8f7b28555&chksm=fc895ce9cbfed5ff192def645670b5bba5a8c497fee1d88264404dc1d8be79f925823424a9ab&mpshare=1&scene=1&srcid=0616UjlAEeXP2KnYo8myxJ9F&sharer_sharetime=1656550295037&sharer_shareid=f66ef27ade3d509229b2afd8611df712#rd)
+- [ ] [Nat. Mach. Intel. | 一种用于分子相互作用和分子性质预测自动图学习方法](http://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw==&mid=2247497567&idx=1&sn=e9c79d628cc1a97708d6f5f44dd31708&chksm=fc895d6bcbfed47d04a9463a6ac24974d539c61e11f6adf560a4eb1e93623544e8f3cff30ded&mpshare=1&scene=1&srcid=06255AsGN02lNewun0zdCmNI&sharer_sharetime=1656087820225&sharer_shareid=f66ef27ade3d509229b2afd8611df712#rd)
+- [ ] [LIMO](http://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw==&mid=2247497583&idx=1&sn=26316dff27b2028f8eef513195c399b9&chksm=fc895d5bcbfed44d629c403a1bd2997a189f07f7153d960e1efec6067642f3fc936d466f7415&mpshare=1&scene=1&srcid=0626S6BfoH0U7GRTwNGKYDmX&sharer_sharetime=1656203105806&sharer_shareid=f66ef27ade3d509229b2afd8611df712#rd)
+- [ ] Life: 跑步 71 * 400
+
+## Finished
+
+### 2022
+
+#### July
+
+- [x] Practice: Write a custom bert
+- [x] one page GitHub
+- [x] Shell: EXA
+- [x] A survey of 辅助学习
+- [x] 条件随机场 + LSTM
+- [x] A survey of 度量学习
+- [x] 西瓜书 第二遍
+- [x] Projects: Peptide GMT
+  - [x] Check the representations@OK
+  - [x] Experiments: Peptide GMT
+    - [x] Figure out out-of-memory@Qiao sir
+    - [x] without info of HLA
+    - [x] with info of HLA
+    - [x] hyper-tune without info of HLA
+  - [x] Experiments: Peptide SMILES Transformer
+    - [x] Python: 并发
+    - [x] Only Peptide
+      - [x] Build transformer
+      - [x] Peptide SMILES Transformer Small Data
+    - [x] With HLA
+- [x] Learn Bert
+  - [x] Huggingface + Pytorch lightning@faied 封装太严重了
+- [x] 超大数据集的载入
+- [x] [Bilibili University | 数学天才 陶哲轩Terence Tao 不再恐惧数学 学会新思维](https://www.bilibili.com/medialist/play/watchlater/BV1wa41187Wf)
+- [x] 电视剧: 梦华录
+- [x] A Survey of MTL
+- [x] Learn@brief: Lightning-Bolt
+  - [x] Learn: [Annotated Transformer](https://github.com/zhaisilong/annotated-transformer) 一行代码一行代码读，推敲公式，感觉学到了很多。花了近两天时间值不值得？
+- [x] Known: PyMol
+- [x] Project: 研习模型
+  - [x] bert4pytoch@代码不行
+  - [x] [pytorchic-bert](https://github.com/zhaisilong/pytorchic-bert)
+  - [x] [Torch-Light: 各类模型经典代码]()
+- [x] Learn: 动态学习率
+  - [x] [Transformers 之自定义学习率动态调整](http://mp.weixin.qq.com/s?__biz=MzAwNjU0NjA3Ng==&mid=2247493007&idx=1&sn=a7d10c4de9e0f7562145f679d8da9582&chksm=9b09127cac7e9b6a9923111bafb87cd1d3ebf7b7c0b8adcd2c745affbd9e8cdd558ba12f5a9d&mpshare=1&scene=1&srcid=0621ufsUrQcky5OqBodaj4Ew&sharer_sharetime=1655769650495&sharer_shareid=f66ef27ade3d509229b2afd8611df712#rd)
+- [x] Projects: Server
+  - [x] docker with pytoch for DL
+  - [x] re-learn docker
+
+#### June
+
+- [x] Learn: hdf5
+- [x] Xu Jiangcheng
+  - [x] To Author
+  - [x] TMAP
+- [x] Tidy my notebook workplace
+
+
+#### May
+
+- [x] Translation a review
+- [x] 1 小时科普: 量子力学 | 朱梓忠 | 清华大学出版社
+- [x] 时光之轮
+- [x] 伞学院 第一季和第二季
+- [x] 漫画算法 Python 篇 小灰的算法之旅
+- [x] 复变函数与积分变换 第二版 | 强烈推介 | 机械工业
+  - 看完不懂的地方建议单独搜索资源搞懂，B 站，知乎都是可以的
+  - 将实变函数推广到复数域
+  - 常用的积分变换：傅里叶和拉普拉斯变换，建议寻找相关可视化视频，帮助理解
+- [x] 吴军数学通识讲义

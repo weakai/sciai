@@ -1,0 +1,19 @@
+---
+title: ANIL
+---
+
+![](https://img2020.cnblogs.com/blog/1027447/202108/1027447-20210818145903016-1351581098.png)
+
+![](https://img2020.cnblogs.com/blog/1027447/202108/1027447-20210818145912063-1970208586.png)
+
+![](https://img2020.cnblogs.com/blog/1027447/202108/1027447-20210818145912063-1970208586.png)
+
+![](https://img2020.cnblogs.com/blog/1027447/202108/1027447-20210818145920085-1774736328.png)
+
+![](https://img2020.cnblogs.com/blog/1027447/202108/1027447-20210818145936675-346118291.png)
+
+![](https://img2020.cnblogs.com/blog/1027447/202108/1027447-20210818145944324-1939744861.png)
+
+## Links
+
+- [元学习——MAML、Reptile 与 ANIL](https://www.cnblogs.com/kailugaji/p/15156806.html)

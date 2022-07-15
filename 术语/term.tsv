@@ -1,0 +1,74 @@
+a given reaction	给定的反应	特定的反应
+ab initio method	自由建模方法	从头设计
+additives	添加剂
+AlphaFold-Multimer	AlphaFold-Multimer
+amination	胺化
+aniline	苯胺
+aryl halide	芳基卤化物
+autonomous vehicle control	自动车辆控制
+base	碱
+C-N cross coupling reaction	C-N 交叉偶联反应
+chain cluster	链簇
+chemically intuitive	化学直觉
+clamping	钳位
+common ancestor	共同祖先
+complex	复合物
+composition	含量
+convergence	趋同	进化上称为“趋同”
+coordinate space	坐标空间
+Cropping	裁剪
+cross-chain	交叉链
+DCA	直接偶联分析	Direct coupling analysis
+Direct coupling analysis	直接偶联分析
+distillation set	蒸馏后数据集
+DockQ	DockQ
+enantioselectivity	对映异构选择性
+Evoformer	Evoformer
+exhaustive combinations	详尽的组合
+extrapolation ability	外推能力
+FAPE	帧对齐点误差	Frame Aligned Point Error
+five-membered heterocycle	五元杂环
+gap filling	间隙填充
+genetics	遗传学
+ground truth	真实值
+ground-truth coordinates	基准坐标
+heads	heads
+heteromeric	异源的
+homodimer	二聚体
+homolog	同源物
+homologous complexes	同源复合物
+homologous proteins	同源性蛋白
+homology	同源
+homology modeling	同源建模
+homomeric	同源
+homomeric components	同源复合物
+HTE	高通量实验	high-throughput experimentation
+In silico	计算机
+informative	信息完备的	信息丰富的
+input-adapted	输入调整的
+interface	界面
+intrinsic model accuracy	内在模型精度
+ipTM	Interface pTM
+isoxazole	异恶唑
+ligand	配体
+long-distance amino-acid contact	远程氨基酸接触能力
+MD	分子动力学	Molecular Dynamics
+memory	内存
+metric	指标
+Monomer	单体
+MPNN	message passing neural network	一种 DNN
+MSA	多序列比对	multiple sequence alignment
+multi-chain protein complexes	多链蛋白复合物
+multimer	多聚体
+multimeric	多聚体的
+oligomeric	寡聚体的
+orthologous	直向同源	序列是来自于不同的种属同源序列
+overall structure	整体结构
+PDB	Protein Data Bank	Protein Data Bank
+Phylogentic tree	系统进化树
+PPI	蛋白质-蛋白质相互作用	protein-protein interaction
+Protein Data Bank	PDB	蛋白质数据库
+Recent-PDB-Multimers	Recent-PDB-Multimers	最新的PDB多聚体
+Tanimoto similarity	Tanimoto 相似度
+UniProt	UniProt	数据库
+cell line	细胞株
