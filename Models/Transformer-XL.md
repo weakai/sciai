@@ -1,7 +1,6 @@
 ---
 title: transformer-xl
-post:
-modified:
+date: 2021-11-27
 tags: [transformer, model, transformer-xl]
 ---
 

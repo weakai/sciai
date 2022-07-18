@@ -1,7 +1,6 @@
 ---
 title: XGBoost
-post: 2022-3-9
-modified: true
+date: 2022-3-9
 tags: [XGBoost, 机器学习, 分类, 回归, 排序, 树]
 ---
 
