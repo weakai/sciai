@@ -1,6 +1,6 @@
 ---
 title: Barlow Twins
-date: 2021-3
+date: 2022-6-27
 paper: https://arxiv.org/abs/2103.03230
 ---
 
