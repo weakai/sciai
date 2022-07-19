@@ -36,15 +36,19 @@ bert 的最大问题也是处在这个 MASK 的点，因为在微调阶段，没
 该模型不再对传统的 AR 模型的序列的值按顺序进行建模，而是最大化所有可能的序列的排列组合顺序的期望对数似然。
 Permutation Language Model，因为排列语言模型开启了自回归语言模型如何引入下文的一个思路。
 
+聪明的你一定发现了，这样处理过后不但保留了序列的上下文信息，也避免了采用 mask 标记位，巧妙的改进了 bert 与传统 AR 模型的缺点。
+
+![](https://upload-images.jianshu.io/upload_images/20030902-91e7d542e3c0dfad.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+
 ## 基于目标感知表征的双流自注意力
 
 - 和 Bert 比，只是实现方式不同而已。
 - 虽然排列语言模型能满足目前的目标，但是对于普通的 transformer 结构来说是存在一定的问题的
-- 通过 Attention 掩码，这里简单说下“双流自注意力机制”，一个是内容流自注意力，其实就是标准的 Transforme r的计算过程；
+- 通过 Attention 掩码，这里简单说下“双流自注意力机制”，一个是内容流自注意力，其实就是标准的 Transformer 的计算过程；
 主要是引入了 Query 流自注意力，这个是干嘛的呢？其实就是用来代替 Bert 的那个 `[Mask]` 标记的，因为 XLNet 希望抛掉 `[Mask]` 标记符号，
 但是比如知道上文单词 x1,x2，要预测单词 x3，此时在 x3 对应位置的 Transformer 最高层去预测这个单词，但是输入侧不能看到要预测的单词 x3，
 Bert 其实是直接引入 `[Mask]` 标记来覆盖掉单词 x3 的内容的，等于说 `[Mask]` 是个通用的占位符号。
-而 XLNet 因为要抛掉 [`Mask]` 标记，但是又不能看到 x3 的输入，于是 Query 流，就直接忽略掉 x3 输入了，只保留这个位置信息，
+而 XLNet 因为要抛掉 `[Mask]` 标记，但是又不能看到 x3 的输入，于是 Query 流，就直接忽略掉 x3 输入了，只保留这个位置信息，
 用参数 w 来代表位置的 embedding 编码。其实 XLNet 只是扔了表面的 `[Mask]` 占位符号，内部还是引入 Query 流来忽略掉被 Mask 的这个单词。
 
 ## 集成 Transformer-XL
@@ -54,6 +58,8 @@ Bert 其实是直接引入 `[Mask]` 标记来覆盖掉单词 x3 的内容的，�
 预训练，去除了 Next Sentence Prediction，因为该任务对结果的提升并没有太大的影响
 
 ## 参考
+
+- [XLNet 详解](https://www.jianshu.com/p/2b5b368cbaa0)
 
 - [最通俗易懂的 XLNET 详解](https://blog.csdn.net/u012526436/article/details/93196139)
 - [XLNet: 运行机制及和 Bert 的异同比较](https://zhuanlan.zhihu.com/p/70257427)
