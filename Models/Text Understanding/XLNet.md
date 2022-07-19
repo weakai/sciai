@@ -1,6 +1,7 @@
 ---
 title: XLNet
 date: 2022-7-18
+update: 2022-7-18
 ---
 
 - 18 年底谷歌推出了 bert，该模型一经问世就占据了 nlp 界的统治地位，如今 CMU 和 google brain 联手推出了 bert 的改进版 xlnet。
