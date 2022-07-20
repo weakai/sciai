@@ -216,8 +216,6 @@ T5 也叫叫“Bert-2”，大方向是更复杂的模型和更多的数据。�
 其中，NLG 问题 UniLM 和 MASS 两篇文章也是往这个方向。
 
 
-
-
 - [Google 预训练语言模型 T5](https://zhuanlan.zhihu.com/p/88727133)
 
 

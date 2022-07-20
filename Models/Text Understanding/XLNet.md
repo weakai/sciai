@@ -60,6 +60,7 @@ Bert 其实是直接引入 `[Mask]` 标记来覆盖掉单词 x3 的内容的，�
 
 ## 参考
 
+- [XLNet 代码分析(四)](http://fancyerii.github.io/2019/08/16/xlnet-codes4/)
 - [XLNet 详解](https://www.jianshu.com/p/2b5b368cbaa0)
 - [XLNet 详解](https://blog.nowcoder.net/n/bfbb3794a38d47aa9dfce3de29efea01?from=nowcoder_improve)
 - [transformer-XL 与 XLNet 笔记](https://carlos9310.github.io/2019/11/11/transformer-xl-and-xlnet/)
