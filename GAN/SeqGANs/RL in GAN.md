@@ -61,8 +61,6 @@ RL+ GAN 利用强化学习中的 ![[公式]](https://www.zhihu.com/equation?tex=
 
 ### 5.1. Reward Baseline：奖	Bias
 
-
-
 ## References
 
 - [Role of RL in Text Generation by GAN(强化学习在生成对抗网络文本生成中扮演的角色)](https://zhuanlan.zhihu.com/p/29168803)
